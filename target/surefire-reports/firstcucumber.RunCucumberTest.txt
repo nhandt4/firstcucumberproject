@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: firstcucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 40.146 sec <<< FAILURE!
+Show Error Message after logining with invalid credentials(Login)  Time elapsed: 9.844 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Login [Page ]- Testmaster.vn> but was:<Login []- Testmaster.vn>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at firstcucumber.StepDefinitions.theSystemDisplaysTheError(StepDefinitions.java:77)
+	at ?.The system displays the error "password incorrect"(file:///D:/Source%20Code/firstcucumberproject/src/test/resources/firstcucumber/login.feature:12)
+
+Show Error Message after logining with invalid credentials(Login)  Time elapsed: 10.279 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Login [Page ]- Testmaster.vn> but was:<Login []- Testmaster.vn>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at firstcucumber.StepDefinitions.theSystemDisplaysTheError(StepDefinitions.java:77)
+	at ?.The system displays the error "Email is invalid"(file:///D:/Source%20Code/firstcucumberproject/src/test/resources/firstcucumber/login.feature:12)
+

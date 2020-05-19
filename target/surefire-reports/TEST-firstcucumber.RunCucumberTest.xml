@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="2" name="firstcucumber.RunCucumberTest" time="39.38" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags &apos;@Sprint1 or @Sprint2&apos;"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Source Code\firstcucumberproject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Source Code\firstcucumberproject"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Source Code\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jre1.8.0_251\bin;D:\Source Code\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\Source Code\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="java.net.preferIPv4Stack" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Source Code\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="java.class.path" value="D:\Source Code\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags &apos;@Sprint1 or @Sprint2&apos;"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Source Code\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Login" name="Show Homepage after Log with valid credentials" time="13.724"/>
+  <testcase classname="Login" name="Show Error Message after logining with invalid credentials" time="9.844">
+    <failure message="expected:&lt;Login [Page ]- Testmaster.vn&gt; but was:&lt;Login []- Testmaster.vn&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Login [Page ]- Testmaster.vn&gt; but was:&lt;Login []- Testmaster.vn&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at firstcucumber.StepDefinitions.theSystemDisplaysTheError(StepDefinitions.java:77)
+	at ✽.The system displays the error &quot;password incorrect&quot;(file:///D:/Source%20Code/firstcucumberproject/src/test/resources/firstcucumber/login.feature:12)
+</failure>
+    <system-out>
+@Sprint2
+Scenario Outline: Show Error Message after logining with invalid credentials      &amp;#27;[90m# src/test/resources/firstcucumber/login.feature:15&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mThe login screen is displayed on browser&amp;#27;[0m                                  &amp;#27;[90m# firstcucumber.StepDefinitions.the_login_screen_is_displayed_on_browser()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user attempt to login with valid &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;khanh.tx@live.com&quot;&amp;#27;[0m&amp;#27;[32m and invalid &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;abc&quot;&amp;#27;[0m &amp;#27;[90m# firstcucumber.StepDefinitions.theUserAttemptToLoginWithValidAndInvalid(java.lang.String,java.lang.String)&amp;#27;[0m
+Login - Testmaster.vn
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mThe system displays the error &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;password incorrect&quot;&amp;#27;[0m                         &amp;#27;[90m# firstcucumber.StepDefinitions.theSystemDisplaysTheError(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31morg.junit.ComparisonFailure: expected:&lt;Login [Page ]- Testmaster.vn&gt; but was:&lt;Login []- Testmaster.vn&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at firstcucumber.StepDefinitions.theSystemDisplaysTheError(StepDefinitions.java:77)
+	at ?.The system displays the error &quot;password incorrect&quot;(file:///D:/Source%20Code/firstcucumberproject/src/test/resources/firstcucumber/login.feature:12)
+&amp;#27;[0m
+
+    Embedding null [image/png 275156 bytes]
+
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 8318
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 19, 2020 5:33:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589884432.979][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884433.199][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884433.301][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884433.409][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884433.510][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884433.612][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884433.713][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884433.815][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="Login" name="Show Error Message after logining with invalid credentials" time="10.279">
+    <failure message="expected:&lt;Login [Page ]- Testmaster.vn&gt; but was:&lt;Login []- Testmaster.vn&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Login [Page ]- Testmaster.vn&gt; but was:&lt;Login []- Testmaster.vn&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at firstcucumber.StepDefinitions.theSystemDisplaysTheError(StepDefinitions.java:77)
+	at ✽.The system displays the error &quot;Email is invalid&quot;(file:///D:/Source%20Code/firstcucumberproject/src/test/resources/firstcucumber/login.feature:12)
+</failure>
+    <system-out>
+@Sprint2
+Scenario Outline: Show Error Message after logining with invalid credentials &amp;#27;[90m# src/test/resources/firstcucumber/login.feature:16&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mThe login screen is displayed on browser&amp;#27;[0m                             &amp;#27;[90m# firstcucumber.StepDefinitions.the_login_screen_is_displayed_on_browser()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mThe user attempt to login with valid &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;khanh.tx&quot;&amp;#27;[0m&amp;#27;[32m and invalid &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;abc123&quot;&amp;#27;[0m  &amp;#27;[90m# firstcucumber.StepDefinitions.theUserAttemptToLoginWithValidAndInvalid(java.lang.String,java.lang.String)&amp;#27;[0m
+Login - Testmaster.vn
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mThe system displays the error &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Email is invalid&quot;&amp;#27;[0m                      &amp;#27;[90m# firstcucumber.StepDefinitions.theSystemDisplaysTheError(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31morg.junit.ComparisonFailure: expected:&lt;Login [Page ]- Testmaster.vn&gt; but was:&lt;Login []- Testmaster.vn&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at firstcucumber.StepDefinitions.theSystemDisplaysTheError(StepDefinitions.java:77)
+	at ?.The system displays the error &quot;Email is invalid&quot;(file:///D:/Source%20Code/firstcucumberproject/src/test/resources/firstcucumber/login.feature:12)
+&amp;#27;[0m
+
+    Embedding null [image/png 276060 bytes]
+
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 46961
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 19, 2020 5:34:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589884442.832][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.047][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.149][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.253][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.360][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.461][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.562][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.666][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589884443.768][SEVERE]: Timed out receiving message from renderer: 0.100
+</system-err>
+  </testcase>
+  <testcase classname="Todo" name="Hien thi dung danh sach da them sau khi refresh" time="5.533"/>
+</testsuite>
